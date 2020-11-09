@@ -2,5 +2,6 @@
 # however, consumers can override it using a custom values file.
 environment:
     serviceAccount:
-      name: sample-sa
+        create: false
+        name: default
     
